@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user_nid: 1
+  user_aid: MyString
+  name: MyString
+  location: MyString
+  profile_image_url: MyString
+  friends: MyText
+  followers: MyText
+  path: MyText
+
+two:
+  user_nid: 1
+  user_aid: MyString
+  name: MyString
+  location: MyString
+  profile_image_url: MyString
+  friends: MyText
+  followers: MyText
+  path: MyText

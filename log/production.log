@@ -1,0 +1,553 @@
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:58:41) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 10:02:30) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 10:24:57) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 10:38:57) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 10:40:58) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 10:41:00) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 10:42:11) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"ev"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/ev
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 10:42:11) [GET]
+  Parameters: {"id"=>"ev"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 50ms (View: 10, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 10:42:34) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"BarackObama"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/BarackObama
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 10:42:34) [GET]
+  Parameters: {"id"=>"BarackObama"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 30ms (View: 10, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/BarackObama]
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 10:43:01) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"twitpic"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/twitpic
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 10:43:01) [GET]
+  Parameters: {"id"=>"twitpic"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 340ms (DB: 340) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/twitpic]
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 10:43:01) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 10:43:09) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"zappos"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/zappos
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 10:43:09) [GET]
+  Parameters: {"id"=>"zappos"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 970ms (View: 10, DB: 960) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/zappos]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 12:14:43) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 12:17:55) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 12:18:02) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"thirtysixthspan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan
+Completed in 10ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 12:18:02) [GET]
+  Parameters: {"id"=>"thirtysixthspan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1300ms (DB: 1300) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan]
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 12:18:03) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 156.110.35.114 at 2010-02-08 14:24:05) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 156.110.35.114 at 2010-02-08 14:24:36) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"IBoO2qjw3JhxlU1jmRnLt63BTgMKFnyaf7HBSJeMvZo=", "id"=>"moreindie"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/moreindie
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 156.110.35.114 at 2010-02-08 14:24:36) [GET]
+  Parameters: {"id"=>"moreindie"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1620ms (DB: 1620) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/moreindie]
+
+
+Processing FrontController#not_yet_determined (for 156.110.35.114 at 2010-02-08 14:24:38) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 166.205.9.178 at 2010-02-08 14:28:25) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 24.116.196.25 at 2010-02-08 14:35:56) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 24.116.196.25 at 2010-02-08 14:36:03) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"PC0g5kXCMqVRlJ1grZRiqk2pMtgwEY5qephCmg+EoQ8=", "id"=>"proidiot"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/proidiot
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 24.116.196.25 at 2010-02-08 14:36:03) [GET]
+  Parameters: {"id"=>"proidiot"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1590ms (DB: 1580) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/proidiot]
+
+
+Processing FrontController#not_yet_determined (for 24.116.196.25 at 2010-02-08 14:36:05) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 68.12.162.56 at 2010-02-08 14:43:35) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 40ms (View: 30, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 68.12.162.56 at 2010-02-08 14:44:04) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"cjQxJXxAkVhoo2eMveG3Snl9uka2Mx1bk0ZsXV8g5XA=", "id"=>"@okor"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/@okor
+Completed in 10ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 68.12.162.56 at 2010-02-08 14:44:04) [GET]
+  Parameters: {"id"=>"@okor"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1700ms (DB: 1690) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/@okor]
+
+
+Processing FrontController#not_yet_determined (for 68.12.162.56 at 2010-02-08 14:44:06) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 70.169.207.226 at 2010-02-08 14:44:13) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.169.207.226 at 2010-02-08 14:44:20) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"mCKS8mFf/clK7lR+jWSu9eqLOWLYimTmnW+tlR4HdFE=", "id"=>"kingduggan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/kingduggan
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.169.207.226 at 2010-02-08 14:44:21) [GET]
+  Parameters: {"id"=>"kingduggan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1710ms (DB: 1710) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/kingduggan]
+
+
+Processing FrontController#not_yet_determined (for 70.169.207.226 at 2010-02-08 14:44:23) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 68.109.247.42 at 2010-02-08 16:06:15) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 68.109.247.42 at 2010-02-08 16:06:34) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"yTeggDxGBiJMVSyzOlQiCACY+DVOZ8w5XBfZcB2Ez1g=", "id"=>"photomattmills"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/photomattmills
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 68.109.247.42 at 2010-02-08 16:06:34) [GET]
+  Parameters: {"id"=>"photomattmills"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1540ms (DB: 1540) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/photomattmills]
+
+
+Processing FrontController#not_yet_determined (for 68.109.247.42 at 2010-02-08 16:06:36) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 72.198.74.235 at 2010-02-08 17:44:33) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 40ms (View: 40, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 72.198.74.235 at 2010-02-08 17:44:43) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"2D0JN0+Xkd3MdSoyh6FqWeIDeCB9DX22qVtKyIPJ0do=", "id"=>"@bertboan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/@bertboan
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.74.235 at 2010-02-08 17:44:43) [GET]
+  Parameters: {"id"=>"@bertboan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1600ms (DB: 1600) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/@bertboan]
+
+
+Processing FrontController#not_yet_determined (for 72.198.74.235 at 2010-02-08 17:44:44) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 18:15:25) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 40ms (View: 30, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 18:15:41) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"bgF0dUgVkFEpnNUtRNYgl3L4fsjh53cUXr2opbeu3NY=", "id"=>"@maeghan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/@maeghan
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 18:15:41) [GET]
+  Parameters: {"id"=>"@maeghan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1530ms (DB: 1530) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/@maeghan]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 18:15:42) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 166.205.8.157 at 2010-02-08 18:22:38) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 30, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 18:52:13) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 30, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 18:52:17) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"BarackObama"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/BarackObama
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 18:52:17) [GET]
+  Parameters: {"id"=>"BarackObama"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 50ms (View: 30, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/BarackObama]
+
+
+Processing FrontController#index (for 76.231.19.204 at 2010-02-08 18:53:20) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 76.231.19.204 at 2010-02-08 18:53:48) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"8hVVp9pRub5ZS26JKk4I11ybKReH20bM+JClCqpbKFc=", "id"=>"sammyboy405"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/sammyboy405
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 76.231.19.204 at 2010-02-08 18:53:48) [GET]
+  Parameters: {"id"=>"sammyboy405"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1890ms (DB: 1890) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/sammyboy405]
+
+
+Processing FrontController#not_yet_determined (for 76.231.19.204 at 2010-02-08 18:53:50) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 156.110.35.114 at 2010-02-08 21:48:59) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 156.110.35.114 at 2010-02-08 21:49:19) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"qOwnZcx9JtsAqsCorTjTaM/60D7LlE6koweyRi96oFA=", "id"=>"moreindie"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/moreindie
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 156.110.35.114 at 2010-02-08 21:49:19) [GET]
+  Parameters: {"id"=>"moreindie"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1990ms (DB: 1990) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/moreindie]
+
+
+Processing FrontController#not_yet_determined (for 156.110.35.114 at 2010-02-08 21:49:22) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:04:51) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 40ms (View: 30, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:05:39) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"rbbruce"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/rbbruce
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:05:39) [GET]
+  Parameters: {"id"=>"rbbruce"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 2050ms (DB: 2040) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/rbbruce]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 22:05:41) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 22:06:32) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 22:06:34) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:06:45) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:07:00) [POST]
+  Parameters: {"authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"barackobama"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/barackobama
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:07:00) [GET]
+  Parameters: {"id"=>"barackobama"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 100ms (View: 50, DB: 40) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:07:38) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:07:47) [POST]
+  Parameters: {"authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"shawnjroberts"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/shawnjroberts
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:07:49) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"shawnjroberts"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/shawnjroberts
+Completed in 10ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:07:47) [GET]
+  Parameters: {"id"=>"shawnjroberts"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 2230ms (DB: 2230) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/shawnjroberts]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:07:49) [GET]
+  Parameters: {"id"=>"shawnjroberts"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 1940ms (DB: 1930) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/shawnjroberts]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 22:07:51) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:07:54) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:07:59) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"jason"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/jason
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:07:59) [GET]
+  Parameters: {"id"=>"jason"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 90ms (View: 30, DB: 50) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/jason]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:08:08) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:08:15) [POST]
+  Parameters: {"authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"patrickallmond"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/patrickallmond
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:08:15) [GET]
+  Parameters: {"id"=>"patrickallmond"}
+Rendering template within layouts/application
+Rendering front/number
+Completed in 900ms (View: 20, DB: 880) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/patrickallmond]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:08:31) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 22:10:39) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"6QidY5m2lbwYEoyzuiD1NRqiHj4KAMnzkl16m6Ndb/U=", "id"=>"thirtysixthspan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 22:10:39) [GET]
+  Parameters: {"id"=>"thirtysixthspan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 2640ms (DB: 2630) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 22:10:41) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 22:11:00) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#index (for 70.184.159.102 at 2010-02-08 23:01:37) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 30ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+
+
+Processing FrontController#get_number (for 70.184.159.102 at 2010-02-08 23:01:43) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"thirtysixthspan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+
+
+Processing FrontController#number (for 70.184.159.102 at 2010-02-08 23:01:43) [GET]
+  Parameters: {"id"=>"thirtysixthspan"}
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 2130ms (DB: 2130) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan]
+
+
+Processing FrontController#not_yet_determined (for 70.184.159.102 at 2010-02-08 23:01:45) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]

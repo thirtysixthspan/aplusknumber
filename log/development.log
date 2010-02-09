@@ -1,0 +1,1478 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 07:50:00) [GET]
+
+ActionView::MissingTemplate (Missing template front/index.erb in view path app/views):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 72.198.75.159 at 2010-02-08 07:50:30) [GET]
+
+ActionController::RoutingError (No route matches "/number/6095" with {:method=>:get}):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 07:51:42) [GET]
+  Parameters: {"id"=>"6095"}
+  [4;35;1mUser Load (170.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = '6095') LIMIT 1[0m
+Rendering front/number
+Completed in 180ms (View: 0, DB: 170) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/6095]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 07:52:56) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+Rendering front/number
+Completed in 20ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 07:58:33) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+Rendering front/number
+Completed in 30ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 07:58:34) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+Rendering front/number
+Completed in 20ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 07:59:15) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+
+NoMethodError (undefined method `<<' for #<FrontController::Array:0x7f8759df6488>):
+  app/controllers/front_controller.rb:17:in `number'
+  app/controllers/front_controller.rb:17:in `each'
+  app/controllers/front_controller.rb:17:in `collect'
+  app/controllers/front_controller.rb:17:in `number'
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (50.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:03:44) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+NoMethodError (undefined method `push' for #<FrontController::Array:0x7f875aeaed70>):
+  app/controllers/front_controller.rb:17:in `number'
+  app/controllers/front_controller.rb:17:in `each'
+  app/controllers/front_controller.rb:17:in `collect'
+  app/controllers/front_controller.rb:17:in `number'
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:04:06) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:05:49) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (20.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 40ms (View: 10, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:10:50) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:12:35) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 20ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:13:50) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 20ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:14:15) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:14:56) [GET]
+  Parameters: {"id"=>"BarackObama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'BarackObama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 0, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/BarackObama]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:17:44) [GET]
+  Parameters: {"id"=>"BarackObama"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'BarackObama') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/BarackObama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100208073025)
+  [4;36;1mSQL (10.0ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_nid` int(11), `user_aid` varchar(255), `name` varchar(255), `location` varchar(255), `profile_image_url` varchar(255), `friends` text, `followers` text, `path` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100208073025')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:19:47) [GET]
+  Parameters: {"id"=>"BarackObama"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'BarackObama') LIMIT 1[0m
+Rendering front/number
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.size) on line #4 of app/views/front/number.html:
+1: <p>The <a href="http://twitter.com/aplusk">@aplusk</a> number for <a href="http://twitter.com/<%= @id %>">@<%= @id %></a> 
+2: is <%= @number %>.</p>
+3: 
+4: <p>There are <%= @paths.size %> paths found so far to @aplusk</p>
+5: <% @paths.each do |path| %>
+6:   <li>
+7:   <% path.reverse.each do |id| %>
+
+    app/views/front/number.html:4:in `_run_app47views47front47number46html'
+    passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+    passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (60.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#number (for 72.198.75.159 at 2010-02-08 08:26:30) [GET]
+  Parameters: {"id"=>"ev"}
+
+SyntaxError (/home/derrickparkhurst/aplusknumber/app/controllers/front_controller.rb:21: syntax error, unexpected $end, expecting kEND):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (180.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:26:58) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 10, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:27:33) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 20ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:28:07) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 10, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:28:54) [GET]
+  Parameters: {"id"=>"eva"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'eva') LIMIT 1[0m
+
+ActionController::RoutingError (No route matches {:action=>"not_yet_determined"}):
+  app/controllers/front_controller.rb:9:in `number'
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:30:09) [GET]
+  Parameters: {"id"=>"eva"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'eva') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 20ms (DB: 10) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/eva]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 08:30:09) [GET]
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:39:35) [GET]
+  Parameters: {"id"=>"eva"}
+  [4;36;1mUser Load (90.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'eva') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 180ms (DB: 90) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/eva]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 08:39:35) [GET]
+Rendering front/not_yet_determined
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:39:49) [GET]
+  Parameters: {"id"=>"eva"}
+  [4;35;1mUser Load (90.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'eva') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 110ms (DB: 90) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/eva]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 08:39:49) [GET]
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:44:05) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (20.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+Completed in 30ms (View: 0, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:46:40) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 90ms (View: 50, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:48:03) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:48:10) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 40ms (View: 0, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:48:24) [GET]
+  Parameters: {"id"=>"barakobama"}
+  [4;36;1mUser Load (180.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'barakobama') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 190ms (DB: 180) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/barakobama]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 08:48:24) [GET]
+Rendering front/not_yet_determined
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:49:42) [GET]
+  Parameters: {"id"=>"Oprah"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'Oprah') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19397785) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 130ms (View: 10, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/Oprah]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:49:48) [GET]
+  Parameters: {"id"=>"Oprah"}
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'Oprah') LIMIT 1[0m
+  [4;35;1mUser Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19397785) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 40ms (View: 0, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/Oprah]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:50:04) [GET]
+  Parameters: {"id"=>"bjork"}
+  [4;35;1mUser Load (180.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'bjork') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;35;1mUser Load (190.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 8236062) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 17173775) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 390ms (View: 0, DB: 370) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/bjork]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:52:29) [GET]
+  Parameters: {"id"=>"bjork"}
+  [4;35;1mUser Load (190.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'bjork') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;35;1mUser Load (180.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 8236062) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 17173775) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 400ms (View: 10, DB: 370) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/bjork]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 08:52:49) [GET]
+
+ActionView::MissingTemplate (Missing template front/index.erb in view path app/views):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 08:57:03) [GET]
+Rendering front/index
+Completed in 30ms (View: 30, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 72.198.75.159 at 2010-02-08 08:57:13) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"ev"}
+
+ActionController::RoutingError (No route matches "/get_number" with {:method=>:post}):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 08:58:40) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"ev"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/ev
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:58:40) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 30ms (View: 10, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 08:59:52) [GET]
+  Parameters: {"id"=>"thirtysixthspan"}
+  [4;36;1mUser Load (270.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'thirtysixthspan') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 290ms (DB: 270) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/thirtysixthspan]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 08:59:52) [GET]
+Rendering front/not_yet_determined
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 72.198.75.159 at 2010-02-08 09:00:33) [GET]
+
+ActionController::RoutingError (No route matches "/barackobama" with {:method=>:get}):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:00:41) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;35;1mUser Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering front/number
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:06:21) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;36;1mUser Load (20.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 70ms (View: 30, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 72.198.75.159 at 2010-02-08 09:06:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/aplusk.css" with {:method=>:get}):
+  passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:08:09) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 10, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:10:13) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 10, DB: 40) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:10:14) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 30, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:11:52) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 160ms (View: 120, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:12:17) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 50ms (View: 20, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:12:39) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 50ms (View: 20, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:13:01) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:15:03) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:15:31) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (50.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 110ms (View: 40, DB: 60) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:16:21) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:16:33) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 50ms (View: 20, DB: 10) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:16:50) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:19:53) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:20:09) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 30, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:20:44) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (20.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 70ms (View: 20, DB: 30) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:21:19) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (30.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 70ms (View: 10, DB: 50) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:21:46) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:22:09) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (40.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 80ms (View: 10, DB: 50) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:29:14) [GET]
+  Parameters: {"id"=>"barackobama"}
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'barackobama') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20798128) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 50393960) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 15215852) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 61115944) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 813286) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 58615933) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 60ms (View: 20, DB: 20) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/barackobama]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:29:19) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:29:59) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;36;1mSQL (10.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:43:36) [GET]
+Rendering template within layouts/application
+Rendering front/index
+
+ActionView::TemplateError (can't convert Fixnum into String) on line #13 of app/views/front/index.html:
+10: <p>We have discovered all the users with an 
+11: <a href="http://twitter.com/aplusk">@aplusk</a> number of
+12: <%= @completeness %> or lower. We are currently discovering users with an 
+13: <a href="http://twitter.com/aplusk">@aplusk</a> number of <%=@completeness+1%>.
+14: </p> 
+15: 
+16: 
+
+    app/views/front/index.html:13:in `_run_app47views47front47index46html'
+    passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+    passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (60.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:44:03) [GET]
+Rendering template within layouts/application
+Rendering front/index
+
+ActionView::TemplateError (undefined method `to_n' for "2\n":String) on line #13 of app/views/front/index.html:
+10: <p>We have discovered all the users with an 
+11: <a href="http://twitter.com/aplusk">@aplusk</a> number of
+12: <%= @completeness %> or lower. We are currently discovering users with an 
+13: <a href="http://twitter.com/aplusk">@aplusk</a> number of <%=@completeness.to_n+1%>.
+14: </p> 
+15: 
+16: 
+
+    app/views/front/index.html:13:in `_run_app47views47front47index46html'
+    passenger (2.2.9) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+    passenger (2.2.9) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:400:in `start_request_handler'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:351:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:349:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:163:in `start'
+    passenger (2.2.9) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+    passenger (2.2.9) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:44:21) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 50ms (View: 40, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 09:45:24) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"ev"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/ev
+Completed in 10ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:45:24) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering front/number
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`user_nid` = 20) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`user_nid` = 19058681) LIMIT 1[0m
+Completed in 40ms (View: 20, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 09:45:54) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"eva"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/eva
+Completed in 10ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:45:54) [GET]
+  Parameters: {"id"=>"eva"}
+  [4;35;1mUser Load (4880.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'eva') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 4890ms (DB: 4880) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/eva]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 09:45:59) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (20.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (50.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100208073025)
+  [4;36;1mSQL (10.0ms)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_nid` int(11), `user_aid` varchar(255), `name` varchar(255), `location` varchar(255), `profile_image_url` varchar(255), `friends` text, `followers` text, `path` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100208073025')[0m
+  [4;36;1mSQL (10.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:54:14) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:54:17) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#get_number (for 72.198.75.159 at 2010-02-08 09:54:22) [POST]
+  Parameters: {"commit"=>"Get Number", "authenticity_token"=>"sFyTr8C0h5A3jznsP4orqf2XJFZZViT9T/ICKnyC4r4=", "id"=>"ev"}
+Redirected to http://aplusk.mashup.extendedbeta.com/number/ev
+Completed in 0ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/get_number]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#number (for 72.198.75.159 at 2010-02-08 09:54:23) [GET]
+  Parameters: {"id"=>"ev"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM `users` WHERE (user_aid = 'ev') LIMIT 1[0m
+Redirected to http://aplusk.mashup.extendedbeta.com/not_yet_determined
+Completed in 10ms (DB: 0) | 302 Found [http://aplusk.mashup.extendedbeta.com/number/ev]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#not_yet_determined (for 72.198.75.159 at 2010-02-08 09:54:23) [GET]
+Rendering template within layouts/application
+Rendering front/not_yet_determined
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/not_yet_determined]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:55:46) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FrontController#index (for 72.198.75.159 at 2010-02-08 09:56:52) [GET]
+Rendering template within layouts/application
+Rendering front/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://aplusk.mashup.extendedbeta.com/]

@@ -1,0 +1,22 @@
+<p>The <a href="http://twitter.com/aplusk">@aplusk</a> number for <a href="http://twitter.com/<%= @id %>">@<%= @id %></a> 
+is <%= @number %>.</p>
+
+<p>There are <%= @paths.size %> paths found so far from <a href="http://twitter.com/<%= @id %>">@<%= @id %></a> to <a 
+href="http://twitter.com/aplusk">@aplusk</a></p>
+<ul>
+<% @paths.each do |path| %>
+  <li>
+  <% path.reverse.each do |id| %>
+    =>
+    <% user = User.find_by_user_nid(id) %>
+    <% if user %>
+      <a href="http://twitter.com/<%= user.user_aid %>"><%= user.user_aid %></a>
+    <% end %>
+  <% end %>
+  </li>
+<% end %>
+</ul>
+
+<p>If you would like to be notified if your <a href="http://twitter.com/aplusk">@aplusk</a> number changes, all you need to do 
+is follow <a href="http://twitter.com/aplusknumber">@aplusknumber</a>, and we'll direct message you when it happens.
+</p>

@@ -1,0 +1,33 @@
+#container {
+  width:960px;
+  margin: auto;
+  background-color: #ccccff;
+}
+
+
+#header {
+  background-color: #aaaaff;
+  font: arial;
+  font-size: 3em;
+  padding: 10px;  
+}
+
+#content {
+  padding: 10px;
+  background-color: #ccccff;
+}
+
+#footer {
+  background-color: #8888ff;
+  font: arial;
+  font-size: .8em;
+  padding: 0 10px 0 10px;  
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #eeeeff;
+}
